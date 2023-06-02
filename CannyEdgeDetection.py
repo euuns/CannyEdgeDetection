@@ -212,7 +212,7 @@ def edge_tracking_by_hysteresis(edge_map, minVal, maxVal):
 
 
 # 이미지 불러오기
-img = Image.open('E:\\수업\\영상처리\\Canny\\test_image.jpg').convert('RGB')
+img = Image.open('test_image.jpg').convert('RGB')
 width, height = img.size
 
 
